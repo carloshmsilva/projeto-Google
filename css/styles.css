@@ -1,0 +1,46 @@
+.input-container{
+    display: flex;
+    width: 700px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 8px 12px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 100px;
+    align-items: center;
+}
+.input-container input{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin: 10px;
+    flex: 1;
+}
+.right-icons{
+    display: flex;
+    gap: 10px;    
+}
+button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 15px;    
+}
+.ia-btn{
+    border: 1px solid #ddd;
+    border-radius: 25%;
+    padding: 6px 12px;
+    background-color: #f1f1f1;
+}
+.topbar{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 10px 20px;  
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
